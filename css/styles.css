@@ -22,6 +22,7 @@ a:hover {
 }
 
 .gh-icon {
+  margin-top: 5px;
   text-align: center;
   font-size: 3rem;
   opacity: 0;
@@ -40,6 +41,7 @@ animation-name: fadein;
 animation-duration: 3.5s;
 animation-fill-mode: forwards;
 animation-delay: 3.5s;
+line-height: 1rem;
 }
 
 .title-holder {
@@ -220,7 +222,6 @@ to {opacity: 1}
   @media (max-width: 840px) {
 
       body {
-        background-color: blue;
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
       }
 
@@ -256,6 +257,7 @@ to {opacity: 1}
 background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
     }
 
+
   .title-holder {
     margin-top: 0;
   }
@@ -276,11 +278,10 @@ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,15
     }
 
     .uctext {
-      font-size: 12px;
+      font-size: 10px;
       position: absolute;
-      margin-left: 200px;
+      margin-left: 195px;
       margin-top: 150px;
-      width: 200px;
       }
 
   }
