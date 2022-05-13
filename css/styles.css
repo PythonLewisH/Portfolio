@@ -4,6 +4,7 @@ body {
 color: white;
 height: 1500px;
 background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+background: cover;
 font-family: 'League Spartan', sans-serif;
 }
 
@@ -21,6 +22,15 @@ a:hover {
   width: 100%;
 }
 
+
+.logos {
+  text-align: center;
+}
+.logo {
+  display: inline-block;
+  margin: 0 5px;
+}
+
 .gh-icon {
   margin-top: 5px;
   text-align: center;
@@ -35,7 +45,9 @@ a:hover {
 .message {
 text-align: center;
 width: 100%;
+padding: 0px 50px;
 margin-top: 400px;
+margin-bottom: 0;
 opacity: 0;
 animation-name: fadein;
 animation-duration: 3.5s;
@@ -255,9 +267,7 @@ to {opacity: 1}
   @media (max-width: 576px) {
     body {
       background-size: cover;
-background-repeat: no-repeat;
 background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
-background-size: contain;
     }
 
 
